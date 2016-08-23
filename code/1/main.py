@@ -5,6 +5,7 @@ main.py to test utest.py program
 """
 import utest
 import who1
+import who2
 from fib import fib
 
 
