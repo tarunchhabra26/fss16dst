@@ -1,2 +1,2 @@
 __name__="Devika Desai"
-print '\nin who.2: '+ __name__
+print '\nin who2: '+ __name__
