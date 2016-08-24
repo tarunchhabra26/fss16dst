@@ -14,7 +14,8 @@ that that example is in CoffeeScript. For the equivalent Python code, see
 6. Add one more unittest to `main.py`.
      + Important... leave behind at least one failing test.
      + Save the file. Watch the code run.
-### [Final Output]
+
+### Final Output
 1. Created `fib.py` which compute's nth fibonacci number.
 2. Wrote `who1.py`, `who2.py` and `who3.py` which simply have names of team members.
 3. Imported `utest.py`,`fib.py`,`who1.py`, `who2.py` and `who3.py` into main.py. Wrote some test cases on `fib.py`
