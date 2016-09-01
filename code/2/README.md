@@ -12,7 +12,7 @@
     - List two things _not_ to do during an active shooter event.
     - List two things _best_ to do during an active shooter event.
 
-- Answers to questions posted in [etc folder] (https://github.com/tarunchhabra26/fss16dst/blob/master/etc/README.md)
+- **Answers** to questions posted in [etc folder] (https://github.com/tarunchhabra26/fss16dst/blob/master/etc/README.md)
 
 ## Introductory Python
 
@@ -27,7 +27,7 @@ Then do:
 
 + All the exercises 3.1,3.2,3.3,3.4,3.5 
       + In your own directory, have a file called think3.py
-+ Output : 3.1 throws an error, 3.2 works
++ **Output** : 3.1 throws an error, 3.2 works
 Rest are in the screenshots :[3.1 - 3.4]
 (think3_1.png)
 , [3.5]
@@ -37,4 +37,4 @@ Rest are in the screenshots :[3.1 - 3.4]
 + Exercises 4.2, 4.3: but make sure you first follow the [install instructions](http://www.greenteapress.com/thinkpython/swampy/install.html).
       + Yes, there is a full worked solution available, but try it out yourself first.
       + In your directory, add figures `think4\_2.png`, `think4\_3.png` showing screen snaps generated from these figures.
-      + Screenshots have been added to the appropriate folder as [`think4\_2.png`](think4/_2.png) and [`think4\_3.png`](think4/_3.png)
+      + **Screenshots** have been added to the appropriate folder as [`think4\_2.png`](think4/_2.png) and [`think4\_3.png`](think4/_3.png)
