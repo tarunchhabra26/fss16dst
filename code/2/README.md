@@ -30,7 +30,7 @@ Then do:
 + Output : 3.1 throws an error, 3.2 works
 Rest are in the screenshots :[3.1 - 3.4]
 (think3_1.png)
-[3.5]
+, [3.5]
 (think3_2.png)
 
 
