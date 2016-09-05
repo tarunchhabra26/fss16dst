@@ -28,10 +28,10 @@ Then do:
 + All the exercises 3.1,3.2,3.3,3.4,3.5 
       + In your own directory, have a file called think3.py
 + **Output** : 3.1 throws an error, 3.2 works
-Rest are in the screenshots :[3.1 - 3.4]
-(think3_1.png)
-, [3.5]
-(think3_2.png)
+Rest are in the screenshots :[!3.1 - 3.4]
+(https://github.com/tarunchhabra26/fss16dst/blob/master/code/2/think3_1.png)
+, [!3.5]
+(https://github.com/tarunchhabra26/fss16dst/blob/master/code/2/think3_2.png)
 
 
 + Exercises 4.2, 4.3: but make sure you first follow the [install instructions](http://www.greenteapress.com/thinkpython/swampy/install.html).
