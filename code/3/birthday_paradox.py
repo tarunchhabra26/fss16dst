@@ -13,7 +13,7 @@ import random
 
 __author__ = "Tarun Chhabra"
 __copyright__ = "Copyright 2016"
-__license__ = "MIT"
+__license__ = "Apache"
 __version__ = "2.0"
 __maintainer__ = "Tarun Chhabra"
 __status__ = "Development"
