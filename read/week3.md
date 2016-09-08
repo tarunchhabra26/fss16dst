@@ -9,9 +9,10 @@ Bug Report Retrieval. In Proceedings of ICSE '10 Proceedings of the 32nd ACM/IEE
 4. **Term Frequency-Inverse Document Frequency (TF-IDF):** It is a stistical approach to evaluating the importance of a term in a corpus
 5. **Support Vector Machine (SVM):** It is an approach to build a discriminative model based on a set of labeled vectors. Based on positive class and negative class panes, SVM tries to build a hyperplane which finds the difference between the two planes with least margins. The paper used libsvm library to do so.
 
-## **Notes**
+##**Notes**
 1. **Motivational Statements:** Despite the benefits of a bug reporting system, it does cause some challenges. As bug reporting process is often uncoordinated and ad-hoc, often the same bugs could bereported more than once by different users. Hence, there is often a need for manual inspection to detect whether the bug has been reported before. 
 2. **Future Work:** Future work of this paper is a plan to investigate the utility ofparaphrases in discriminative models for potential improvement in accuracy.
 3. **Baseline Results:** The peresented approach outperforms existing techniques by a relative improvement of 17–31%, 22–26%, and 35–43% on OpenOffice, Firefox, and Eclipse dataset respectively
+
 ## **Scope of Improvement**
 1.	The results are based on the bug report database of 3 projects only with more or less structured reporting. The techniques should be applied to other open source as well as proprietary projects to check for its correctness and universal applicability. 
