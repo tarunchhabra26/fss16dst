@@ -34,7 +34,7 @@ Tarun Chhabra, Department of Computer Science<br/>
 [Devika Desai, Department of Computer Science, Sudipto Biswas, Department of Computer Science, Tarun Chhabra, Department of Computer Science]<br/>
 + `Poker` 
 
-'''
+```
 0
 1000
 2000
@@ -55,4 +55,4 @@ fullhouse probability is 38.42
 fourofakind probability is 538.46
 straightflush probability is 2800.00
 highcard probability is 1.00
-'''
+```
