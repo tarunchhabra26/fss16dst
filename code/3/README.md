@@ -21,3 +21,17 @@ Then do:
      + That pretty prints name and age (hint: `__repr__`)
 	 + That can be sorted on age (hint: `__lt__`)
 + 18.12:Exercise 6 (Poker!) 
+
+## Outputs
++ 10.15 Exercise 8 (the Birthday Paradox)
+
+Number of simulations : 10000<br/>
+Number of positive matches : 9687<br/>
+Probability : 96.87<br/>
+
++ `Employee` Class
+
+Tarun Chhabra, Department of Computer Science<br/>
+[Devika Desai, Department of Computer Science, Sudipto Biswas, Department of Computer Science, Tarun Chhabra, Department of Computer Science]<br/>
+
+
