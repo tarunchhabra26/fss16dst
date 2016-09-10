@@ -1,6 +1,5 @@
 # Homework3: coding homework 
 
-
 Read chapters one to four of [Think like a Computer Scientist](http://www.greenteapress.com/thinkpython/html/index.html)
 
 + 10. Lists
@@ -33,5 +32,3 @@ Probability : 96.87<br/>
 
 Tarun Chhabra, Department of Computer Science<br/>
 [Devika Desai, Department of Computer Science, Sudipto Biswas, Department of Computer Science, Tarun Chhabra, Department of Computer Science]<br/>
-
-
