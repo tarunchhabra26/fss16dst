@@ -32,3 +32,27 @@ Probability : 96.87<br/>
 
 Tarun Chhabra, Department of Computer Science<br/>
 [Devika Desai, Department of Computer Science, Sudipto Biswas, Department of Computer Science, Tarun Chhabra, Department of Computer Science]<br/>
++ `Poker` 
+
+'''
+0
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+Number of hands 70000.0
+pair probability is 1.27
+twopair probability is 3.78
+threeofakind probability is 12.91
+straight probability is 21.19
+flush probability is 31.79
+fullhouse probability is 38.42
+fourofakind probability is 538.46
+straightflush probability is 2800.00
+highcard probability is 1.00
+'''
