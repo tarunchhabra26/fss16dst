@@ -46,13 +46,13 @@ Tarun Chhabra, Department of Computer Science<br/>
 8000
 9000
 Number of hands 70000.0
-pair probability is 1.27
-twopair probability is 3.78
-threeofakind probability is 12.91
-straight probability is 21.19
-flush probability is 31.79
-fullhouse probability is 38.42
-fourofakind probability is 538.46
-straightflush probability is 2800.00
-highcard probability is 1.00
+pair happens one time in 1.27
+twopair happens one time in 3.78
+threeofakind happens one time in is 12.91
+straight happens one time in 21.19
+flush happens one time in 31.79
+fullhouse happens one time in 38.42
+fourofakind happens one time in 538.46
+straightflush happens one time in 2800.00
+highcard happens one time in 1.00
 ```
