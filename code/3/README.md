@@ -23,10 +23,10 @@ Then do:
 
 ## Outputs
 + 10.15 Exercise 8 (the Birthday Paradox)
-
-Number of simulations : 10000<br/>
-Number of positive matches : 9687<br/>
-Probability : 96.87<br/>
+Numberof students : 23 <br/>
+Number of simulations : 10000 <br/>
+Number of positive matches : 5028 <br/>
+Probability : 50.28 <br/>
 
 + `Employee` Class
 
