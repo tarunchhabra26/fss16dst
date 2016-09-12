@@ -184,7 +184,7 @@ def main(*args):
         if probab == 0:
             continue
         p = total / probab
-        print '%s probability is %.2f' % (label, p)
+        print '%s happens one time in %.2f' % (label, p)
 
 if __name__ == '__main__':
     main(*sys.argv)
