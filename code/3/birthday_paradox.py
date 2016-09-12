@@ -69,10 +69,11 @@ def count_positives(students, simulations):
 
 
 # Run the simulations and calculate the probability
-students = 50
+students = 23
 simulations = 10000
 positives = count_positives(students, simulations)
 
+print 'Numberof students : %d' % students
 print 'Number of simulations : %d' % simulations
 print 'Number of positive matches : %d' % positives
 print 'Probability : %3.2f ' % ((positives / simulations) * 100)
