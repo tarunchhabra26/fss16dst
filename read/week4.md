@@ -2,13 +2,13 @@
 
 ## Keywords 
 
-#### infoZilla - A tool called infoZilla detects structural elements from bug reports with near perfect accuracy and allows us to extract them. infoZilla can be used to leverage data from bug reports at a different granularity level that can facilitate interesting research in the future.
+#### **infoZilla** - A tool called infoZilla detects structural elements from bug reports with near perfect accuracy and allows us to extract them. infoZilla can be used to leverage data from bug reports at a different granularity level that can facilitate interesting research in the future.
 
-####  Patches - The common format of a patch is the uniform diff format. Elements that often provide hints at a problem’s cause, come in form of technical entities like stack traces or patches. They represent a small piece of software designed to update or fix problems with a computer program or its supporting data.
+####  **Patches** - The common format of a patch is the uniform diff format. Elements that often provide hints at a problem’s cause, come in form of technical entities like stack traces or patches. They represent a small piece of software designed to update or fix problems with a computer program or its supporting data.
 
-#### Stack Traces Filter - A stack trace is a record of the execution of a software, showing the sequence of instructions executed up to an occurred crash. Typically stack traces have several well-defined parts as well:the exception, error or assertion that has been violated, an optional exception or error message, a calling stack.
+#### **Stack Traces Filter** - A stack trace is a record of the execution of a software, showing the sequence of instructions executed up to an occurred crash. Typically stack traces have several well-defined parts as well:the exception, error or assertion that has been violated, an optional exception or error message, a calling stack.
 
-#### Order of Filters - The order in which these filters are executed is important since some structural elements interfere. To cope with such interferences, the filter sequence is used.
+#### **Order of Filters** - The order in which these filters are executed is important since some structural elements interfere. To cope with such interferences, the filter sequence is used.
 
 ## Motivation: 
 The focus is to correctly identify the presence of enumerations, patches, stack traces, and source code in bug reports. Bug reports typically comprise a problem description in natural language text and often, structural elements such as patches, stack traces and source code.
