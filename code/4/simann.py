@@ -69,5 +69,3 @@ def simannler():
         if k%50==0:
              print("\n")
              print(beststate)
-
-simannler();
