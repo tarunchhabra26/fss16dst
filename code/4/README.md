@@ -19,3 +19,5 @@ and as dirty as you like.
 ## Outputs
 Screenshot has been attached<br/>
 
+![`\sa.jpg`](https://github.com/tarunchhabra26/fss16dst/blob/master/code/4/sa.jpg)
+
