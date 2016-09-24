@@ -1,0 +1,25 @@
+# **Paper Review: Reading 5**
+## **Reading**
+Abram Hindle, Anahita Alipour, Eleni Stroulia, A contextual approach towards more accurate duplicate bug report detection and ranking. Proceeding MSR '13 Proceedings of the 10th Working Conference on Mining Software Repositories.
+
+## **Keywords**
+1. **Issue-tracking systems:** Many software projects provide services for users to report bugs, and to store these reports in a issue-tracking system. Bug-tracking systems, such as Bugzilla and Google’s issue tracker, enable users and testers to report their findings in a central repository with a short description and a longer summary, akin to a message subject line and body, as well as tool-specific additional information. The system uses this information to categorize and, possibly, further annotate the bug report. This enables developers to query for bug reports based on a combination of textual and categorical (attribute-based) queries.
+2. **Bug-tracing systems:** Is asystem that uses bug informationto to categorize and, possibly, further annotate the bug report. This enables developers to query for bug reports based on a combination of textual and categorical (attribute-based) queries.
+3. **Duplicate bug reports:** Bug reporting is an uncoordinated process, with multiple system stakeholders reporting
+issues as they experience them. As a result, an incoming report may refer to a bug that has already been reported in the bug-tracking system.
+4. **Triaging:** If the incoming report is about a new bug, then it should be assigned to an developer with the
+knowledge and skills necessary to fix it. If, on the other hand, the bug report is a duplicate, it
+should simply be attached to the original “master” report to provide additional information
+to the developer assigned to it. This process is referred to as triaging
+5. **Bug de-duplication:** Duplicate bugs are associated to a master bug, they are examined together and fixed together, thus avoiding duplication of the developers’ debugging effort. This process is known as bug de-duplication.
+6. **Information retrieval:** Is a process by which, given a bug description, recognize similar bugs in the bug-tracking system and order them in decreasing rank of similarity. The intent is to focus the attention of the triager on a few duplicate candidates in order to reduce the triaging effort while, at the same, improving the de-duplication accuracy.
+7. **Software context:** Authors took advantage of different existing software-related contextual data-sets represented as lists of contextual words. These contextual word lists are compared with the textual features of the bug reports to indicate the contextual characteristics of the bug reports, relating the bug-report words to existing contexts and thus annotate bug reports with context. Next, the contextual word lists were organized into following categories: architecture words,non-functional requirement (NFR) words, LDA topic words and random english.
+
+## **Notes**
+1. **Motivational Statements:**  This paper is extension of a another paper(MSR Alipour et al. 2013), in which authors developed a method to identify duplicate bug reports based on their contextual features, in addition to their textual and categorical fields. To implement this method, exploited software contextual vocabularies were exploited, each consisting of a set of contextual word lists about software architectural words, software non-functional requirement words, topic words extracted by LDA, topic words extracted by Labeled-LDA, and random English words (as a control). Given these contextual words, author's proposed several new features for the bug reports by comparing each contextual word list to the textual features of the bug reports (description and title) using the BM25F metric employed by Sun et al.
+
+2. **Future Work:** Future work of this paper is to implement this method as an embedded tool in an issue-tracker to empirically investigate the role that this method can actually play in assisting the triagers and save their time and effort when looking for the duplicates of an incoming bug report. Future plans also include evaluating what makes a good context.
+3. **Baseline Results:** The proposed contextual approach improved the accuracy of bug report deduplication by 0.1 %–11.5 % over Sun et al.’s (2011) method.Furthermore, it improved the quality of the list of candidate duplicates for an incoming bug report by applying the REP function (Sun et al. 2011), contextual measures, and the logistic-regression classifier’s probabilistic model. It also acheieved 7.8 %– 9.5 % improvement in Mean Average Precision (MAP) measure over Sun et al.’s (2011) approach. Adding software context resulted in an improvement of the quality of the list of candidate duplicates for Android and OpenOffice bug repositories by up to 0.7 %, but it did not improve the candidate-duplicate lists for the Eclipse and Mozilla repositories.
+
+## **Scope of Improvement**
+1. This approach could also be applied to more modern, state-of-the-art bug deduplication techniques such as those by Nguyen et al. (2012) and then evaluated for any improvements.
