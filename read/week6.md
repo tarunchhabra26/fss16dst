@@ -9,6 +9,22 @@ international conference on Automated software engineering.
 
 3. **Representation and Similarity:** With the help of this approach the weight of each word is usually computed using the product of its term frequency  and  its  inverse  document  frequency,  following  the standard tf-idf weighting scheme. 
 
-4. **DupFinder** DupFinder does not require any  training  data  and  thus  can  easily  be  deployed  to  any project.   DupFinder  extracts  texts  from  summary  and  description fields of a new bug report and recent bug reports present in a bug tracking system, uses vector space model to measure similarity of bug reports, and provides developers with a list of potential duplicate bug reports based on the similarity of these reports with the new bug report. 
+4. **DupFinder** DupFinder, which implements the state-of-the-art unsupervised duplicate bug report approach by Runeson et al., as a Bugzilla extension. DupFinder does not require any  training  data  and  thus  can  easily  be  deployed  to  any project.   DupFinder  extracts  texts  from  summary  and  description fields of a new bug report and recent bug reports present in a bug tracking system, uses vector space model to measure similarity of bug reports, and provides developers with a list of potential duplicate bug reports based on the similarity of these reports with the new bug report. 
 
-5. **Unsupervised learning:** DupFinder, which implements the state-of-the-art unsupervised duplicate bug report approach by Runeson et al., as a Bugzilla extension. Unsupervised learning is the task of inferring a function to describe hidden structure from unlabeled data. Unsupervised learning encompasses many techniques that seek to summarize and explain key features of the data, which is why it is a good fit for finding duplicate bug report.
+5. **Unsupervised learning:** Unsupervised learning is the task of inferring a function to describe hidden structure from unlabeled data. Unsupervised learning encompasses many techniques that seek to summarize and explain key features of the data, which is why it is a good fit for finding duplicate bug report.
+
+## **Notes**
+1. **Motivational Statements:**  Bug reporting is inherently an uncoordinated  distributed  process. This gives rise to a number of duplicate bug reports. Even though there are a number of unsupervised machine learning approcahes to find such duplicate reports, DupFinder actually integrates one of those (Runeson et al's) approach to provide a list of potential duplicates. The goal of this paper is not to design a new algorithm but rather to implement an existing technique into a tool integrated to a bug tracking system that can be used by practitioners to help them deal with duplicate bug report problem.  
+
+2. **Future Work:** One of the major areas of enhancement in the future for DupFinder will be the implementation of supervised duplicate bug reportdetection techniques along with the current unsupervised techniques.
+
+3. **Related Work:** Sureka and Jalote proposed a novel technique which uses N-gram  based  model  to  detect  duplicate  bug  reports  and evaluate  their  technique  on  bug  reports  from  Eclipse. Wang et al.  extend the work by Runeson et al.  to consider execution traces and show that by considering execution traces, duplicate bug report can be identi ed more accurately. Their techniques have never been compared against a common dataset and thus it is unclear which technique is the best performing one. 
+
+## **Scope of Improvement**
+1. DupFinder only applies a single unsupervised learning algorithm propsed by Runeson et al. to find duplicate bug reports. Other unsupervised as well as supervised learning approaches should be incorporated for wider applicability.
+
+
+## **References**
+1. http://cogsys.imm.dtu.dk/thor/projects/multimedia/textmining/node5.html
+2. https://en.wikipedia.org/wiki/Vector_space_model
+3. https://www.researchgate.net/publication/273127322_Preprocessing_Techniques_for_Text_Mining
