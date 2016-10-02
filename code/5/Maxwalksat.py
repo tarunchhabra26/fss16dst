@@ -73,7 +73,7 @@ for i in xrange(100):
         min = sc
 maxtries = 50
 maxchanges = 50
-thresh = 50
+thresh = 5
 p = 0.5
 
 def newenergy():
