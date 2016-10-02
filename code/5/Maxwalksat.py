@@ -1,6 +1,5 @@
 from __future__ import division, print_function
-from sys import float_info, stdout, argv
-from math import e
+from sys import float_info
 from random import *
 
 
@@ -25,7 +24,7 @@ def f1(s):                                                      #building object
 def f2(s):
     return s.x1 ** 2 + s.x2 ** 2 + s.x3 ** 2 + s.x4 ** 2 + s.x5 ** 2 + s.x6 ** 2
 
-def randomx():                                              #getting random value for each decision
+def randomx():                                               #getting random value for each decision
     x1 = randint(0, 10)
     x2 = randint(0, 10)
     x3 = randint(1, 5)
@@ -192,7 +191,7 @@ for i in xrange(maxtries):
                     break
         print(".", end="")
     print()
-print('\n')
+
 
 print('Decisions ', sb.x1, sb.x2,  sb.x2,  sb.x2, sb.x2,  sb.x2)
 
