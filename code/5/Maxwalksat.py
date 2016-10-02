@@ -74,6 +74,7 @@ for i in xrange(100):
         min = sc
 maxtries = 50
 maxchanges = 50
+thresh = 50
 p = 0.5
 
 def newenergy():
@@ -87,7 +88,7 @@ for i in xrange(maxtries):
     solution = newvalid_x()
 
     for j in xrange(maxchanges):
-        if eosyczka(solution.f1, solution.f2) < max:
+        if eosyczka(solution.f1, solution.f2) < thresh:
             sb = solution
             ebest = eosyczka(solution.f1, solution.f2)
 
