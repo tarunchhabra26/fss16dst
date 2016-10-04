@@ -99,12 +99,12 @@ class MaxWalkSat:
 
     def mutate_solutions(self, x):
         """
-        Mutates the solutions with a probability of 10%
+        Mutates the solutions with a probability of 50%
         :param x: Values of x
         :return: New mutated solutions
         """
         global bounds
-        probability = 0.1
+        probability = 0.5
         mutated_bounds = []
         for i in xrange(6):
             less = min(x[i] - probability * self.bounds[i][0], self.bounds[i][0])
