@@ -1,6 +1,6 @@
 # **Paper Review: Reading 6**
 ## **Reading**
-Ferdian Thung, Pavneet Singh Kochhar, and David Lo, DupFinder: Integrated Tool Support for Duplicate Bug Report Detection. Proceedings of the 29th ACM/IEEE 
+Ferdian Thung, Pavneet Singh Kochhar, and David Lo, DupFinder: Integrated Tool Support for Duplicate Bug Report Detection. ASE '14 Proceedings of the 29th ACM/IEEE 
 international conference on Automated software engineering.
 ## **Keywords**
 1. **Vector space model:** Vector space model is an algebraic model for representing text documents or any objects as vectors of identifiers. It can be divided in to three stages. The first stage is the document indexing where content bearing terms are extracted from the document text. The second stage is the weighting of the indexed terms to enhance retrieval of document relevant to the user. The last stage ranks the document with respect to the query according to a similarity measure. It is used in information filtering, information retrieval, indexing and relevancy rankings. The paper cites Runeson  et  al.'s proposal of  an  unsupervised  technique that takes a new bug report and returns a ranked list of top-k most similar reports to help detect duplicate reports. Being an unsupervised technique, Runeson et al.'s approach does  not  require  any  training  data  and  thus  can  be  used for any bug tracking systems even those with a small number of bug reports. 
