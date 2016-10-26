@@ -18,12 +18,12 @@ GainRatio and Relief) which output different ranked lists of textual features. T
 2. **Future Work:** Additional bug reports from more projects is to be investigated to reduce threats to external validity. Design of additional solutions can help boost the effectiveness of EFSPredictor.
 
 3. **Related Work:** Xia et al. proposed a text mining technique to predict if a bug
-report is due to a misconfiguration. This technique builds on their work by integrating multiple feature selection algorithm i.e. ChiSquare, Filter, GainRatio etc. to produce a set of representative features. Wang et al. present PeerPressure, which leverages statistical methods to diagnose the root-cause of configuration errors. Yin et al. performed an empirical study on configuration bugs in five
+report is due to a misconfiguration. This technique builds on their work by integrating multiple feature selection algorithm i.e. ChiSquare, Filter, GainRatio etc. to produce a set of representative features. Wang et al. presented PeerPressure, which leverages statistical methods to diagnose the root-cause of configuration errors. Yin et al. performed an empirical study on configuration bugs in five
 software systems, and they find that most configuration bugs are due to incorrect parameter setting. Zhang and Ernst used static analysis, dynamic profiling, and statistical analysis to detect configuration issues. Xu et al. had proposed a tool SPEX to expose misconfiguration vulnerabilities, and detect error-prone configuration design in software systems
 
 ## **Scope of Improvement**
 The experiments have been conducted on 5 bug report datasets (i.e., accumulo, activemq, camel, flume, and wicket) containing a total of 3,203 bugs. The experiment results show that, on average across
 the 5 projects, EFSPredictor achieves an F1-score to 0.57, which improves the state-of-the-art approach proposed by Xia et al. by 14%. Although this is a significant result, the datasets on which the model has been tested is not sufficiently big and can be improved upon by testing on new datasets such as Amazon EC2 APIs.
 
-## **Scope of Improvement**
+## **References**
 1.  http://www.anderson.ucla.edu/faculty/jason.frand/teacher/technologies/palace/datamining.htm
