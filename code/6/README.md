@@ -1,4 +1,4 @@
-+Output
++ Output
 ```
 Executing simulated annealing for  Schaffer
 Initial point = [31430] and energy = 1975564084
