@@ -1,4 +1,46 @@
-+ Output
+## What to Hand in
+
+
+From the following, show the output of running sa, mws on Schaffer, Osyczka2, Kursawe.
+
+
+# To Do
+
+Rewrite your SA and MWS code such that you can run the following loop:
+
+```python
+for model in [Schaffer, Osyczka2, Kursawe]:
+    for optimizer in [sa, mws]:
+           optimizer(model())
+```
+
+This is the _generic experiment loop_ that allows for rapid extension to handle more models and more optimizers.
+
+## Tips
+
+### Another Model
+
+The above loops requires the  [Kursawe](models/moeaProblems.pdf) model.
+
+### Optimizer as function
+
+The above code assumes that _mws_, _sa_ are functions that accept one argument: a description of the model they are processing.
+
+### Model as Class
+
+For the above loop to work, each model (e.g. _Schaffer_) has to be class that produces an instance via _model()_.
+That model defines:
+
++ the number of decisions;
++ the number of objectives;
++ the name of each decision/objective;
++ the min/max range of each decision/objective;
++ the _any_ function that generates an instance of the decisions(randomly between min and max for each  decision)
++ the _ok_ function that checks if a particular candidate is valid (for _Schaffer and Kursawe_, this returns _True_ while
+for _Osyczka2_, this does some checking).
++ the _eval_ function that computes the objective scores for each candidate
+
+# Output
 ```
 Executing simulated annealing for  Schaffer
 Initial point = [31430] and energy = 1975564084
