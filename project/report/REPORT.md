@@ -1,8 +1,8 @@
 # Cloud Infrastructure Optimization
 ## Team Members
-* ### Devika Desai (dndesai@ncsu.edu)
-* ### Tarun Chhabra (tchhabr@ncsu.edu)
-* ### Sudipto Biswas (sbiswas4@ncsu.edu)
+* Devika Desai (dndesai@ncsu.edu)
+* Tarun Chhabra (tchhabr@ncsu.edu)
+* udipto Biswas (sbiswas4@ncsu.edu)
 
 ## Date: December 07, 2016
 
@@ -44,7 +44,7 @@ While most media and public attention focuses on the largest data centers that p
 as NrDC initially found in its groundbreaking 2012 analysis, Is Cloud Computing Always Greener? Finding the Most Energy and Carbon Efficient Information Technology Solutions for Small- and Medium-Sized Organizations, smaller server rooms and closets are responsible for about half of all u.s. server electricity consumption—but 50 percent of that is wasted due to lack of awareness and incentives to make them more efficient. There remains a critical need for action, including developing utility incentive programs to reduce waste in the massive amounts of electricity used by data centers small and large. 
 In 2013, u.s. data centers consumed an estimated 91 billion kilowatt-hours of electricity. This is the equivalent annual output of 34 large (500-megawatt) coal- red power plants, enough electricity to power all the households in New York City twice over. Data center electricity consumption is projected to increase to roughly 140 billion kilowatt-hours annually by 2020, the equivalent annual output of 50 power plants, costing american businesses 
 $13 billion per year in electricity bills and causing the emission of nearly 150 million metric tons of carbon pollution annually.1 
-If just half of the technical savings potential for data center effciency were realized (to take into account the market barriers discussed in this report), electricity consumption in u.s. data centers could be cut by as much as 40 percent. In 2014, this represents a **savings of 39 billion kilowatt-hours annually**, equivalent to the annual electricity consumption of all the households in the state of Michigan. **Such improvement would save u.s. businesses $3.8 billion a year. **
+If just half of the technical savings potential for data center effciency were realized (to take into account the market barriers discussed in this report), electricity consumption in u.s. data centers could be cut by as much as 40 percent. In 2014, this represents a **savings of 39 billion kilowatt-hours annually**, equivalent to the annual electricity consumption of all the households in the state of Michigan. __Such improvement would save U.S. businesses $3.8 billion a year.__    
 
 ## Implementation 
 Cloudsim model:
@@ -66,7 +66,7 @@ In order to decide the time to initiate the migration of VMs from a host, a heur
 * Robust Local Regression (LRR): The local regression version was vulnerable to outliers that could be caused by heavy tailed distribution. In order to make a robust solution modification was proposed by adding the robust estimation method called bi-square which transformed LR onto an iterative method. 
 More detail descriptions of these host overload detection algorithms could be found in [13].
 
-__VM selection__ 
+__VM selection__  
 After finding out an overloaded host, the next step is to select the particular VMs to migrate from one host to the other. In this section, we will discuss about three VM selection policies that we used in our work. 
 * Minimum migration time (MMT): This policy selects a VM to migrate that requires minimum amount of time to finish migrating, compared to other VMs allocated to the host. 
 * Random Choice Policy (RC): This policy selects a VM that needs to be migrated according to a uniformly distributed discrete random variable Xd = U(0,|Vj|), whose values index a set of VMs Vj allocated to a host j. More details about RC is given in [13]. 
@@ -89,8 +89,8 @@ After finding out an overloaded host, the next step is to select the particular 
 14.	**Host RAM** { 4096, 4096},{ 4096, 4096, 8192,8192 }; MB
 15.	**Host Bandwidth** 500000 - 1000000 (500 Mbit/s to 1 Gbit/s)
 16.	**Host storage** 1000000 - 2000000 (1-2 GB)
-
-** We simulated our runs for six hours** 
+  
+**We simulated our runs for six hours**  
 
 ## Objectives 
 1.	Energy consumption kWh(minimize) 
@@ -100,14 +100,83 @@ After finding out an overloaded host, the next step is to select the particular 
 ## Results 
 1.	Overall ranking: 
 
-![](/project/report/Ranking.png?) 
+![](/project/report/Ranking.png) 
 
-Figure 2: Final Rank of Optimisers based on Performance
+Figure 2: Final Rank of Optimisers based on Performance   
+   
+2. Statistics:    
 
-2.	Statistics: 
-![](/project/report/Ranking.png?) 
+
+![](/project/report/SPREAD. Mean and Standard Deviation .png) 
 
 Figure 3: SPREAD. Mean and Standard Deviation 
 
 
+![](/project/report/SPREAD. Median and Interquartile Range.png) 
 
+Figure 4: SPREAD. Median and Interquartile Range 
+
+
+![](/project/report/HyperVolume. Mean and Standard Deviation.png) 
+
+Figure 5: HyperVolume. Mean and Standard Deviation  
+
+
+![](/project/report/HyperVolume. Median and Interquartile Range.png) 
+
+Figure 6: HyperVolume. Median and Interquartile Range 
+
+
+![](/project/report/IGD. Mean and Standard Deviation.png) 
+
+Figure 7: IGD. Mean and Standard Deviation 
+
+
+![](/project/report/IGD. Median and Interquartile Range.png) 
+
+Figure 8: IGD. Median and Interquartile Range 
+
+
+## Challenges 
+*	Long runtimes for high number of hosts and VMs
+*	Choice of algorithms 
+*	Best algorithm depends on the choice of models 
+
+## Future Work 
+*	Parallel execution
+*	Comparisons using more algorithms(DE, GA, SPEA2 etc.)
+*	With speed up more variance can be added. 
+
+## Conclusion: 
+
+## Acknowledgement: 
+We earnestly thank course instructor Dr. Tim Menzies, and teaching assistant George Mathew for giving us valuable advice in implementing the project.  
+
+##References  
+[1] Lee, Young Choon, and Albert Y. Zomaya. "Energy efficient utilization of resources in cloud computing systems." The Journal of Supercomputing 60.2 (2012): 268-280.  
+
+[2] Wang, Zhiming, et al. "Energy-aware and revenue-enhancing Combinatorial Scheduling in Virtualized of Cloud Datacenter." JCIT 7.1 (2012): 62-70.  
+
+[3] P. -Y. Yin, S. -S. Yu, P. -P. Wang and Y. -T. Wang, "A hybrid particle swarm optimization algorithm for optimal task assignment in distributed systems”, Computer Standards & Interfaces, vol. 28, (2006), pp. 441-450.   
+
+[4] Yan Gao-wei,Hao Zhanju, A Novel Atmosphere Clouds Model Optimization Algorithm, International Conference on Computing, Measurement, Control and Sensor Network,2012,ISBN: 978-1-4673-2033-7,Pg 217.   
+
+[5] Pandey, S., Wu, L., Guru, S., Buyya, R.: A particle swarm optimization-based heuristic for scheduling workflow applications in Cloud Computing environments. In: International Con- ference on Advanced Information Networking and Applications. pp. 400–407. IEEE Computer Society (2010)   
+
+[6] Liu, Z., Wang, X.: A pso-based algorithm for load balancing in virtual machines of cloud computing environment. In: et al., Y.T. (ed.) Advances in Swarm Intelligence, Lecture Notes in Computer Science, vol. 7331, pp. 142–147. Springer Berlin Heidelberg (2012)  
+
+[7] Zhan, S., Huo, H.: Improved PSO-based Task Scheduling Algorithm in Cloud Computing. Journal of Information & Computational Science 9(13), 3821–3829 (2012)  
+
+[8] Liu, Y., Zhu, H.: A survey of the research on power management techniques for high-performance systems. Software Practice & Experience 40(11), 943–964 (October 2010)  
+
+[9] Jeyarani,R.,Nagaveni,N.,VasanthRam,R.:Designandimplementationofadaptivepower-aware virtual machine provisioner (APA-VMP) using swarm intelligence. Future Generation Computer Systems 28(5), 811–821 (2012)   
+
+[10] Feller, E., Rilling, L., Morin, C.: Energy-Aware Ant Colony Based Workload Placement in Clouds. In: 12th International Conference on Grid Computing. pp. 26–33. No. 8 in Grid ’11, IEEE Computer Society (2011)  
+
+[11] Banerjee, S., Mukherjee, I., Mahanti, P.: Cloud Computing initiative using modified ant colony framework. In: World Academy of Science, Engineering and Technology. pp. 221– 224. WASET (2009)   
+
+[12] Beloglazov A, Abawajy J, Buyya R (2011) Energy-aware resource allocation heuristics for efficient management of data centers for cloud computing. Future Generat Comput Syst. doi:10.1016/j.future.2011.04.017  
+
+[13] Beloglazov A, Buyya R (2012) Optimal online deterministic algorithms and adaptive heuristics for energy and performance efficient dynamic consolidation of virtual machines in Cloud data centers. Concurrency Computat. Pract Exper 24:1397–1420. doi:10.1002/cpe.1867  
+
+[14] Verma A, Dasgupta G, Nayak TK, De P, Kothari R (2009) Server workload analysis for power minimization using consolidation. Proceedings of the 2009 USENIX Annual Technical Conference, San Diego, CA, USA, pp 28–28  
