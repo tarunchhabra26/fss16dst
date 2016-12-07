@@ -203,7 +203,8 @@ Figure 3: SPREAD. Mean and Standard Deviation
 
 Figure 4: SPREAD. Median and Interquartile Range 
 
-
+#### Hyper Volume:
+MOEAD had the best HV out of all the algorithms.
 ![](/project/report/HyperVolume. Mean and Standard Deviation.png) 
 
 Figure 5: HyperVolume. Mean and Standard Deviation  
@@ -213,11 +214,11 @@ Figure 5: HyperVolume. Mean and Standard Deviation
 
 Figure 6: HyperVolume. Median and Interquartile Range 
 
-
+#### IGD:
+MOEAD had the best HV out of all the algorithms.
 ![](/project/report/IGD. Mean and Standard Deviation.png) 
 
 Figure 7: IGD. Mean and Standard Deviation 
-
 
 ![](/project/report/IGD. Median and Interquartile Range.png) 
 
