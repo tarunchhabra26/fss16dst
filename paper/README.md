@@ -1,2 +1,0 @@
-# fss16dst
-paper
