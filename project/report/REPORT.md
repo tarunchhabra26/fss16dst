@@ -98,13 +98,13 @@ After finding out an overloaded host, the next step is to select the particular 
 3.	Mean time before host shutdown seconds(maximize)
  
 ## Results 
-1.	Overall ranking: 
+__1.	Overall ranking:__   
 
 ![](/project/report/Ranking.png) 
 
 Figure 2: Final Rank of Optimisers based on Performance   
    
-2. Statistics:    
+__2. Statistics:__      
 
 
 ![](/project/report/SPREAD. Mean and Standard Deviation .png) 
