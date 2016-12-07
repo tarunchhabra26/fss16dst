@@ -8,7 +8,7 @@
 
 ## Abstract 
 
-In this project we modeled a cloud based datacenters with multiple hosts,VMs with varying hardware and power aware configurations using CloudSim library. The aim of the project was to optimize a power aware datacenter by varying decisions of VM allocation, selection algoriths and hardware configurations. In order to find solutiong to the optimization problem we used SMPSO(Spread Measured Particle Swarm Optimization), NSGAII and MOEAD algorithms. Not only did we aim to try and find an answer to multi-objective optimization problem in this domain, we also tried to compare the outcomes of these algorithm for the given problem.
+In this project we modeled a cloud based datacenters with multiple hosts,VMs with varying hardware and power aware configurations using CloudSim library. The aim of the project was to optimize a power aware datacenter by varying decisions of VM allocation, selection algoriths and hardware configurations. In order to find solutiong to the optimization problem we used [SMPSO](http://jmetal.sourceforge.net/smpso.html)(Spread Measured Particle Swarm Optimization), [NSGAII](http://ieeexplore.ieee.org/iel5/4235/21497/00996017.pdf) and [MOEAD](http://ieeexplore.ieee.org/iel5/4235/4358751/04358754.pdf) algorithms. Not only did we aim to try and find an answer to multi-objective optimization problem in this domain, we also tried to compare the outcomes of these algorithm for the given problem[.
 
 
 ## Introduction
@@ -54,7 +54,6 @@ In the related work we can see that most of the authors have tried to optimize t
 ### Assumption
 Due to runtime constraints and challenges we were able to solve the problem for upto 100 hosts. Many application and commercial clouds currently operate in such configurations also. Hence, the results cannot be completely ignored. However, they do not fully mimic a large public cloud as the variances in outputs may grow with more machines being added to it. Since, this study is a very early attempt towards such a problem we encourage more extensive results to come up in future studies.
 
-
 ## Implementation 
 Cloudsim model:
 CloudSim is a framework for modeling and simulation of cloud computing infrastructures and services.
@@ -62,12 +61,13 @@ CloudSim is a framework for modeling and simulation of cloud computing infrastru
 So users can access and deploy applications from anywhere in the Internet driven by demand and QoS requirements.  
 * So users can access and deploy applications from anywhere in the Internet driven by demand and QoS requirements. 
 * So users can access and deploy applications from anywhere in the Internet driven by demand and QoS requirements.  
-* Main contribution: A holistic software framework for modeling Cloud computing environments and performance testing application services. 
+* Main contribution: A holistic software framework for modeling Cloud computing environments and performance testing application services.
+* We were able to simulate an entire power-aware datacenter using this framework.
 
 ## Allocation and Selection Algorithms 
 In the next sections we will discuss the algorithm for detection of overloaded host, the selection algorithm that will pick the VMs to migrate from one host to the other, in CloudSim. Finally, modified techniques that we use for VM placement are discussed. 
   
-__VM allocation__  
+### VM allocation
 In order to decide the time to initiate the migration of VMs from a host, a heuristic for setting an upper and lower utilization threshold was first proposed by Beloglazov and Buyya [12]. But due to unpredictable and dynamic workload, a fixed value of utilization threshold was not suitable. Therefore, in the later work [13] the authors proposed an auto adjustment technique of utilization threshold based on statistical analysis of previous data which was gathered during the lifetime of VMs. The main idea of his heuristic was to adjust the upper bound considering the deviation of CPU utilization. Four overload detection techniques proposed in [13] are discussed below: 
 * Median Absolute Deviation (MAD): For adjusting upper bound a statistical dispersion like MAD is used. The reason behind choosing MAD over standard deviation is that MAD is not heavily influenced by the outliers, so the magnitude of the distances of outliers is irrelevant. 
 * Interquartile Range (IQR): This could be said as the second method for setting an adaptive upper threshold. For symmetric distribution half of IQR is equal to MAD. 
@@ -75,31 +75,102 @@ In order to decide the time to initiate the migration of VMs from a host, a heur
 * Robust Local Regression (LRR): The local regression version was vulnerable to outliers that could be caused by heavy tailed distribution. In order to make a robust solution modification was proposed by adding the robust estimation method called bi-square which transformed LR onto an iterative method. 
 More detail descriptions of these host overload detection algorithms could be found in [13].
 
-__VM selection__  
+### VM selection 
 After finding out an overloaded host, the next step is to select the particular VMs to migrate from one host to the other. In this section, we will discuss about three VM selection policies that we used in our work. 
 * Minimum migration time (MMT): This policy selects a VM to migrate that requires minimum amount of time to finish migrating, compared to other VMs allocated to the host. 
 * Random Choice Policy (RC): This policy selects a VM that needs to be migrated according to a uniformly distributed discrete random variable Xd = U(0,|Vj|), whose values index a set of VMs Vj allocated to a host j. More details about RC is given in [13]. 
 * Maximum Correlation policy (MC): According to the proposal of Verma et al. [14], the higher the correlation between the resource usage by applications running on an over subscript server, the higher the probability of the server being overloaded. Based on this idea Beloglazov and Buyya [13] selected VMs which are needed to be migrated in such a way that VMs with highest correlation of the CPU utilization with other VMs are considered first. To estimate correlation, multiple correlation coefficients were applied. 
+* Random Selection(RS): Randomly selects any of the given policies described above.
 
 ## Decisions 
+Our model had the following decision variances
 1.	**Number of hosts** : 1 - 100
 2.	**Number of Vms** 1 - 200 or 400
 3.	**VM Types**  2, 4 (whether each host has 2 or 4 vms)
 4.	**Host Types** 2, 4 (single or dual/quad)
-5.	**VM Allocation Policy** iqr,lr,lrr,mad,thr (5)
-6.	**VM Selection Policy** mc,mmt,mu,rs (4)
+5.	**VM Allocation Policy** iqr,lr,lrr,mad,thr
+6.	**VM Selection Policy** mc,mmt,mu,rs 
 7.	**Utilization threshold** 0.8 - 2.5 (Specific parameters for selection policies)
-8.	**VM PES** {1,1}, {2,2,2,2} () 
-9.	**VM MIPS** {2500, 100} ,{2500, 2000, 100, 500}
-10.	**VM RAM** { 870,  1740}, { 870,  1740, 1740, 613 }; MB
+8.	**VM PES** {1,1}, {2,2,2,2} (based on the dual core or quad-core architecture selection)
+9.	**VM MIPS** {2500, 100} ,{2500, 2000, 100, 500} (based on the dual core or quad-core architecture selection)
+10.	**VM RAM** { 870,  1740}, { 870,  1740, 1740, 613 } MB (based on the dual core or quad-core architecture selection)
 11.	**VM Bandwidth** 100000 to 200000 (100 Mbit/s to 200 Mbit/s)
-12.	**Host PES** {2,2} , {2,2,4,4} 
-13.	**Host MIPS** { 1860, 2660} , { 1860, 2660, 5000, 6000 };
-14.	**Host RAM** { 4096, 4096},{ 4096, 4096, 8192,8192 }; MB
+12.	**Host PES** {2,2} , {2,2,4,4} (based on the dual core or quad-core architecture selection)
+13.	**Host MIPS** { 1860, 2660} , { 1860, 2660, 5000, 6000 } (based on the dual core or quad-core architecture selection)
+14.	**Host RAM** { 4096, 4096},{ 4096, 4096, 8192,8192 } MB (based on the dual core or quad-core architecture selection)
 15.	**Host Bandwidth** 500000 - 1000000 (500 Mbit/s to 1 Gbit/s)
 16.	**Host storage** 1000000 - 2000000 (1-2 GB)
   
-**We simulated our runs for six hours**  
+### Runs
+Each run of CloudSim model used to mimic 6 hours of actualy datacenter run. Hence, SLA has also been computed accordingly. 
+In average case each run used to take about **30 seconds**. In worst case a single run could take upto **2 minutes and 30 seconds**.
+It was quite challenging to stabalize and optimize such a complicated model. The code base and instructions to run could be access from [here](https://github.com/tarunchhabra26/fss16dst/tree/master/project)
+
+Every run used to compute suh values :
+
+```
+New resource usage for the time frame starting at 5000.10:
+
+5000.10: [Host #0] Total allocated MIPS for VM #49 (Host #0) is 12.28, was requested 12.28 out of total 100.00 (12.28%)
+5000.10: [Host #0] MIPS for VM #49 by PEs (2 * 1860.0). PE #0: 12.28.
+5000.10: [Host #0] Total allocated MIPS for VM #74 (Host #0) is 10.86, was requested 10.86 out of total 100.00 (10.86%)
+5000.10: [Host #0] MIPS for VM #74 by PEs (2 * 1860.0). PE #0: 10.86.
+5000.10: [Host #0] utilization is 0.62%
+
+5000.10: [Host #1] Total allocated MIPS for VM #0 (Host #1) is 601.34, was requested 601.34 out of total 2500.00 (24.05%)
+5000.10: [Host #1] MIPS for VM #0 by PEs (2 * 5000.0). PE #0: 601.34.
+5000.10: [Host #1] Total allocated MIPS for VM #24 (Host #1) is 2210.45, was requested 2210.45 out of total 2500.00 (88.42%)
+5000.10: [Host #1] MIPS for VM #24 by PEs (2 * 5000.0). PE #0: 2015.54. PE #1: 194.91.
+5000.10: [Host #1] Total allocated MIPS for VM #48 (Host #1) is 2383.12, was requested 2383.12 out of total 2500.00 (95.32%)
+5000.10: [Host #1] MIPS for VM #48 by PEs (2 * 5000.0). PE #0: 2383.12.
+5000.10: [Host #1] utilization is 51.95%
+
+5000.10: [Host #2] Total allocated MIPS for VM #50 (Host #2) is 61.42, was requested 61.42 out of total 100.00 (61.42%)
+5000.10: [Host #2] MIPS for VM #50 by PEs (2 * 1860.0). PE #0: 61.42.
+5000.10: [Host #2] Total allocated MIPS for VM #75 (Host #2) is 27.82, was requested 27.82 out of total 100.00 (27.82%)
+5000.10: [Host #2] MIPS for VM #75 by PEs (2 * 1860.0). PE #0: 27.82.
+5000.10: [Host #2] utilization is 2.40%
+........
+```
+The final output of the runs was as follows :
+
+```
+Simulation: Reached termination time.
+CloudInformationService: Notify all CloudSim entities for shutting down.
+Broker is shutting down...
+Datacenter is shutting down...
+Simulation completed.
+Received 0 cloudlets
+Simulation completed.
+
+Experiment name: random_lr_mu_1.393674679793466
+Number of hosts: 49
+Number of VMs: 97
+Total simulation time: 21600.00 sec
+Energy consumption: 8.57 kWh
+Number of VM migrations: 121
+SLA: 0.00006%
+SLA perf degradation due to migration: 0.01%
+SLA time per active host: 0.78%
+Overall SLA violation: 0.01%
+Average SLA violation: 10.00%
+Number of host shutdowns: 35
+Mean time before a host shutdown: 7032.09 sec
+StDev time before a host shutdown: 3472.58 sec
+Mean time before a VM migration: 28.16 sec
+StDev time before a VM migration: 6.86 sec
+Execution time - VM selection mean: 0.00025 sec
+Execution time - VM selection stDev: 0.00050 sec
+Execution time - host selection mean: 0.00075 sec
+Execution time - host selection stDev: 0.00150 sec
+Execution time - VM reallocation mean: 0.01400 sec
+Execution time - VM reallocation stDev: 0.02078 sec
+Execution time - total mean: 0.05175 sec
+Execution time - total stDev: 0.04378 sec
+
+
+Total simulation time : 1936 ms
+```
 
 ## Objectives 
 1.	Energy consumption kWh(minimize) 
