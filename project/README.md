@@ -1,4 +1,10 @@
 # Cloud Infrastructure Optimization
+
+Project Team:
+* Tarun Chhabra - tchhabr@ncsu.edu
+* Devika Desai - dndesai@ncsu.edu
+* Sudipto Biswas - sbiswas4@ncsu.edu
+
 ## About : 
 In this project we modeled a cloud based datacenters with multiple hosts,VMs with varying hardware and power aware configurations using CloudSim library. The aim of the project was to optimize a power aware datacenter by varying decisions of VM allocation, selection algoriths and hardware configurations. In order to find solutiong to the optimization problem we used SMPSO(Spread Measured Particle Swarm Optimization), NSGAII and MOEAD algorithms. Not only did we aim to try and find an answer to multi-objective optimization problem in this domain, we also tried to compare the outcomes of these algorithm for the given problem.
 
