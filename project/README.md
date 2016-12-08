@@ -10,36 +10,36 @@ The whole project is java based.
 
 * Compatible with both Java 7 and Java 8
 * Minimum requirements :
-    **Windows
-      *** Windows 10 (8u51 and above)
-Windows 8.x (Desktop)
-Windows 7 SP
-1
-Windows Vista SP2
-Windows Server 2008 R2 SP1 (64-bit)
-Windows Server 2012 and 2012 R2 (64-bit)
-RAM: 128 MB
-Disk space: 124 MB for JRE; 2 MB for Java Update
-Processor: Minimum Pentium 2 266 MHz processor
-Browsers: Internet Explorer 9 and above, Firefox
-Mac OS X
-Intel-based Mac running Mac OS X 10.8.3+, 10.9+
-Administrator privileges for installation
-64-bit browser
-A 64-bit browser (Safari, Firefox for example) is required to run Oracle Java on Mac OS X. 
+    * Windows
+       * Windows 10 (8u51 and above)
+       * Windows 8.x (Desktop)
+       * Windows 7 SP1
+       * RAM: 128 MB
+       * Disk space: 124 MB for JRE; 2 MB for Java Update
+       * Processor: Minimum Pentium 2 266 MHz processor
+       * Browsers: Internet Explorer 9 and above, Firefox
+    * Mac OS X
+      * Intel-based Mac running Mac OS X 10.8.3+, 10.9+
+      * Administrator privileges for installation
+      * 64-bit browser
+      * A 64-bit browser (Safari, Firefox for example) is required to run Oracle Java on Mac OS X. 
+   * Linux
+      * Oracle Linux 5.5+1
+      * Ubuntu Linux 15.10 (8u65 and above)
+      * Browsers: Firefox
+* All the projects are [Eclipse](https://eclipse.org/) based and use [Maven](https://maven.apache.org/). 
+* Please make sure to install Maven plugin with eclipse. We used Eclipse Mars to run to build and run this one.
+* Import CloudSim, jMetal and JMetalTest as eclipse projects.
+* Eclipse should build it for you (assuming maven is installed before the imoprt step)
+* Open the build properties and set CloudSim and jMetal projects(all) as dependencies of JMetalTest
+* Once complete and a successful build is acheived the project could be run using AlgorithmStudy.java program located in cloudsim.power.optimization package.
+* The program takes two command line values as input
+   1. Folder for Experiment Base Directory (where all the results will be stored).
+   2. Folder where the reference pareto front will be generated (the program doesn't assume that the ideal front exists).
+* Once the runs are complete(which will take hours) it will produce results and reports in the `Experiment Base Directory` folder provided.
+* Feel free to contact authors if any issue is encountered.
 
+## Licence
+CloudSim uses GPL licence hence this project is also under the same [licence](https://github.com/tarunchhabra26/fss16dst/blob/master/project/License.txt)
 
-Linux
-Oracle Linux 5.5+1
-Oracle Linux 6.x (32-bit), 6.x (64-bit)2
-Oracle Linux 7.x (64-bit)2 (8u20 and above)
-Red Hat Enterprise Linux 5.5+1, 6.x (32-bit), 6.x (64-bit)2
-Red Hat Enterprise Linux 7.x (64-bit)2 (8u20 and above)
-Suse Linux Enterprise Server 10 SP2+, 11.x
-Suse Linux Enterprise Server 12.x (64-bit)2 (8u31 and above)
-Ubuntu Linux 12.04 LTS, 13.x
-Ubuntu Linux 14.x (8u25 and above)
-Ubuntu Linux 15.04 (8u45 and above)
-Ubuntu Linux 15.10 (8u65 and above)
-Browsers: Firefox
 
