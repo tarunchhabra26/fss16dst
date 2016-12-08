@@ -256,7 +256,11 @@ Figure 10 : SMPSO
 
 *	With speed up more variance can be added - The model currently used 16 decisions. However many more could be easily added.
 
+This study is a very early attempt into this problem area.
+
 ## Conclusion: 
+In terms of the original problem we proposed we did find some interesting answers. The best configuaration for a cloud of this size shows that with around 30 hosts and 30 VMs with a dual core setup give us the best energy usage. Out of the algorithmic policies IQR, LR (allocation policies) with MC (selection policy) were evaluated to be the most power aware. Under such conditions the datacenter was able to work with 6-7 kWh with SLA violation not exceeding 0.1 % (ideal conformace in 99.9%). This is great and proves that power aware systems can be very effectively be used across cloud infrastructures. However, we do suggest the results may vary wth large setups. The results may be small but not totally insginificant in terms of commercial cloud applications.
+
 
 ## Acknowledgement: 
 We earnestly thank course instructor Dr. Tim Menzies, and teaching assistant George Mathew for giving us valuable advice in implementing the project.  
