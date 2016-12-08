@@ -35,10 +35,10 @@ The whole project is java based.
       * Browsers: Firefox
 * All the projects are [Eclipse](https://eclipse.org/) based and use [Maven](https://maven.apache.org/). 
 * Please make sure to install Maven plugin with eclipse. We used Eclipse Mars for development, build and runs.
-* Import CloudSim, jMetal and JMetalTest as eclipse projects.
+* Import `CloudSim`, `jMetal` and `JMetalTest` as eclipse projects.
 * Eclipse should build it for you (assuming maven is installed before the imoprt step)
 * Open the build properties and set CloudSim and jMetal projects(all) as dependencies of JMetalTest
-* Once complete and a successful build is acheived the project could be run using AlgorithmStudy.java program located in cloudsim.power.optimization package.
+* Once complete and a successful build is acheived the project could be run using `AlgorithmStudy.java` program located in `cloudsim.power.optimization` package.
 * The program takes two command line values as input
    1. Folder for Experiment Base Directory (where all the results will be stored).
    2. Folder where the reference pareto front will be generated (the program doesn't assume that the ideal front exists).
