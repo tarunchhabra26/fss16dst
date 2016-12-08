@@ -84,6 +84,7 @@ After finding out an overloaded host, the next step is to select the particular 
 
 ## Decisions 
 Our model had the following decision variances
+
 1.	**Number of hosts** : 1 - 100
 2.	**Number of Vms** 1 - 200 or 400
 3.	**VM Types**  2, 4 (whether each host has 2 or 4 vms)
