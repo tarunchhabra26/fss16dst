@@ -8,7 +8,7 @@
 
 ## Abstract 
 
-In this project we modeled a cloud based datacenters with multiple hosts,VMs with varying hardware and power aware configurations using CloudSim library. The aim of the project was to optimize a power aware datacenter by varying decisions of VM allocation, selection algoriths and hardware configurations. In order to find solutiong to the optimization problem we used [SMPSO](http://jmetal.sourceforge.net/smpso.html)(Spread Measured Particle Swarm Optimization), [NSGAII](http://ieeexplore.ieee.org/iel5/4235/21497/00996017.pdf) and [MOEAD](http://ieeexplore.ieee.org/iel5/4235/4358751/04358754.pdf) algorithms. Not only did we aim to try and find an answer to multi-objective optimization problem in this domain, we also tried to compare the outcomes of these algorithm for the given problem[.
+In this project we modeled a cloud based datacenters with multiple hosts,VMs with varying hardware and power aware configurations using CloudSim library. The aim of the project was to optimize a power aware datacenter by varying decisions of VM allocation, selection algoriths and hardware configurations. In order to find solutiong to the optimization problem we used [SMPSO](http://jmetal.sourceforge.net/smpso.html)(Spread Measured Particle Swarm Optimization), [NSGAII](http://ieeexplore.ieee.org/iel5/4235/21497/00996017.pdf) and [MOEAD](http://ieeexplore.ieee.org/iel5/4235/4358751/04358754.pdf) algorithms. Not only did we aim to try and find an answer to multi-objective optimization problem in this domain, we also tried to compare the outcomes of these algorithm for the given problem.
 
 
 ## Introduction
