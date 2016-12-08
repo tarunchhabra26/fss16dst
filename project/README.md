@@ -9,7 +9,7 @@ Project Team:
 In this project we modeled a cloud based datacenters with multiple hosts,VMs with varying hardware and power aware configurations using CloudSim library. The aim of the project was to optimize a power aware datacenter by varying decisions of VM allocation, selection algoriths and hardware configurations. In order to find solutiong to the optimization problem we used SMPSO(Spread Measured Particle Swarm Optimization), NSGAII and MOEAD algorithms. Not only did we aim to try and find an answer to multi-objective optimization problem in this domain, we also tried to compare the outcomes of these algorithm for the given problem.
 
 ## Report Link : 
-Can be access [here](https://github.com/tarunchhabra26/fss16dst/blob/master/project/report/REPORT.md)
+Can be accessed [here](https://github.com/tarunchhabra26/fss16dst/blob/master/project/report/REPORT.md)
 
 ## How to compile and run:
 The whole project is java based.
