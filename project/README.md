@@ -28,7 +28,7 @@ The whole project is java based.
       * Ubuntu Linux 15.10 (8u65 and above)
       * Browsers: Firefox
 * All the projects are [Eclipse](https://eclipse.org/) based and use [Maven](https://maven.apache.org/). 
-* Please make sure to install Maven plugin with eclipse. We used Eclipse Mars to run to build and run this one.
+* Please make sure to install Maven plugin with eclipse. We used Eclipse Mars for development, build and runs.
 * Import CloudSim, jMetal and JMetalTest as eclipse projects.
 * Eclipse should build it for you (assuming maven is installed before the imoprt step)
 * Open the build properties and set CloudSim and jMetal projects(all) as dependencies of JMetalTest
