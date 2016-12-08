@@ -1,0 +1,1929 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808171</millis>
+  <sequence>0</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.JMetalLogger</class>
+  <method>configureLoggers</method>
+  <thread>1</thread>
+  <message>Loggers configured with null</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808217</millis>
+  <sequence>1</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>Computing indicator: EP</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808218</millis>
+  <sequence>2</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>RF: ParetoFront/CloudSimPower.rf</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808230</millis>
+  <sequence>3</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>resetFile</method>
+  <thread>1</thread>
+  <message>File TestRuns/CloudComputeProblemStudy/data/NSGAII/CloudSimPower/EP exist.</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808232</millis>
+  <sequence>4</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>resetFile</method>
+  <thread>1</thread>
+  <message>File TestRuns/CloudComputeProblemStudy/data/NSGAII/CloudSimPower/EP is a file. Deleting file.</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808234</millis>
+  <sequence>5</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>resetFile</method>
+  <thread>1</thread>
+  <message>File succesfully deleted.</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808247</millis>
+  <sequence>6</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>EP: 0.07622984134111233</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808256</millis>
+  <sequence>7</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>EP: 0.09058876357670309</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808264</millis>
+  <sequence>8</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>EP: 0.8561592394366578</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808274</millis>
+  <sequence>9</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>EP: 0.16693350465870915</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808290</millis>
+  <sequence>10</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>EP: 0.08973617609655765</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808299</millis>
+  <sequence>11</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>EP: 0.8423488218326817</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808304</millis>
+  <sequence>12</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>RF: ParetoFront/CloudSimPower.rf</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808309</millis>
+  <sequence>13</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>resetFile</method>
+  <thread>1</thread>
+  <message>File TestRuns/CloudComputeProblemStudy/data/MOEAD/CloudSimPower/EP exist.</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808310</millis>
+  <sequence>14</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>resetFile</method>
+  <thread>1</thread>
+  <message>File TestRuns/CloudComputeProblemStudy/data/MOEAD/CloudSimPower/EP is a file. Deleting file.</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808314</millis>
+  <sequence>15</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>resetFile</method>
+  <thread>1</thread>
+  <message>File succesfully deleted.</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808324</millis>
+  <sequence>16</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>EP: 0.8506485710575675</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808360</millis>
+  <sequence>17</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>EP: 0.8481697484292293</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808393</millis>
+  <sequence>18</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>EP: 0.8604471163238242</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808418</millis>
+  <sequence>19</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>EP: 0.8383218770844696</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808428</millis>
+  <sequence>20</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>EP: 0.8481697484292293</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808439</millis>
+  <sequence>21</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>EP: 0.8952673783676427</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808441</millis>
+  <sequence>22</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>RF: ParetoFront/CloudSimPower.rf</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808449</millis>
+  <sequence>23</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>resetFile</method>
+  <thread>1</thread>
+  <message>File TestRuns/CloudComputeProblemStudy/data/SMPSO/CloudSimPower/EP does NOT exist.</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808453</millis>
+  <sequence>24</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>EP: 0.04295498097215275</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808457</millis>
+  <sequence>25</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>EP: 0.04295498097215275</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808473</millis>
+  <sequence>26</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>EP: 0.04295498097215275</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808477</millis>
+  <sequence>27</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>EP: 0.04295498097215275</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808498</millis>
+  <sequence>28</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>EP: 0.01917493317550928</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808518</millis>
+  <sequence>29</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>EP: 0.04295498097215275</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808519</millis>
+  <sequence>30</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>Computing indicator: SPREAD</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808519</millis>
+  <sequence>31</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>RF: ParetoFront/CloudSimPower.rf</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808526</millis>
+  <sequence>32</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>resetFile</method>
+  <thread>1</thread>
+  <message>File TestRuns/CloudComputeProblemStudy/data/NSGAII/CloudSimPower/SPREAD exist.</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808529</millis>
+  <sequence>33</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>resetFile</method>
+  <thread>1</thread>
+  <message>File TestRuns/CloudComputeProblemStudy/data/NSGAII/CloudSimPower/SPREAD is a file. Deleting file.</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808530</millis>
+  <sequence>34</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>resetFile</method>
+  <thread>1</thread>
+  <message>File succesfully deleted.</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808543</millis>
+  <sequence>35</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>SPREAD: 1.363523583175386</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808547</millis>
+  <sequence>36</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>SPREAD: 1.1373743876720357</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808550</millis>
+  <sequence>37</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>SPREAD: 1.278714749248333</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808553</millis>
+  <sequence>38</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>SPREAD: 1.2045107659735745</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808557</millis>
+  <sequence>39</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>SPREAD: 1.358699689912415</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808561</millis>
+  <sequence>40</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>SPREAD: 1.1609609117593453</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808563</millis>
+  <sequence>41</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>RF: ParetoFront/CloudSimPower.rf</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808568</millis>
+  <sequence>42</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>resetFile</method>
+  <thread>1</thread>
+  <message>File TestRuns/CloudComputeProblemStudy/data/MOEAD/CloudSimPower/SPREAD exist.</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808573</millis>
+  <sequence>43</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>resetFile</method>
+  <thread>1</thread>
+  <message>File TestRuns/CloudComputeProblemStudy/data/MOEAD/CloudSimPower/SPREAD is a file. Deleting file.</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808576</millis>
+  <sequence>44</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>resetFile</method>
+  <thread>1</thread>
+  <message>File succesfully deleted.</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808583</millis>
+  <sequence>45</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>SPREAD: 1.1940329377607932</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808586</millis>
+  <sequence>46</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>SPREAD: 1.1303933886308983</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808589</millis>
+  <sequence>47</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>SPREAD: 1.3073525978200597</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808593</millis>
+  <sequence>48</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>SPREAD: 1.1986682816069827</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808596</millis>
+  <sequence>49</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>SPREAD: 1.2025991930199713</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808599</millis>
+  <sequence>50</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>SPREAD: 1.19847098435511</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808600</millis>
+  <sequence>51</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>RF: ParetoFront/CloudSimPower.rf</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808616</millis>
+  <sequence>52</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>resetFile</method>
+  <thread>1</thread>
+  <message>File TestRuns/CloudComputeProblemStudy/data/SMPSO/CloudSimPower/SPREAD does NOT exist.</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808620</millis>
+  <sequence>53</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>SPREAD: 1.3585748644509184</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808628</millis>
+  <sequence>54</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>SPREAD: 1.3882341285804072</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808631</millis>
+  <sequence>55</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>SPREAD: 1.351217235846959</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808634</millis>
+  <sequence>56</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>SPREAD: 1.4076939575371739</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808648</millis>
+  <sequence>57</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>SPREAD: 1.3974847135095823</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808650</millis>
+  <sequence>58</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>SPREAD: 1.367982891186495</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808651</millis>
+  <sequence>59</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>Computing indicator: GD</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808652</millis>
+  <sequence>60</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>RF: ParetoFront/CloudSimPower.rf</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808657</millis>
+  <sequence>61</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>resetFile</method>
+  <thread>1</thread>
+  <message>File TestRuns/CloudComputeProblemStudy/data/NSGAII/CloudSimPower/GD exist.</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808660</millis>
+  <sequence>62</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>resetFile</method>
+  <thread>1</thread>
+  <message>File TestRuns/CloudComputeProblemStudy/data/NSGAII/CloudSimPower/GD is a file. Deleting file.</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808661</millis>
+  <sequence>63</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>resetFile</method>
+  <thread>1</thread>
+  <message>File succesfully deleted.</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808670</millis>
+  <sequence>64</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>GD: 0.0067372496925364326</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808675</millis>
+  <sequence>65</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>GD: 0.011720122247200215</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808678</millis>
+  <sequence>66</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>GD: 0.010081756318167972</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808684</millis>
+  <sequence>67</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>GD: 0.01176017545891776</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808689</millis>
+  <sequence>68</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>GD: 0.009194053541644332</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808695</millis>
+  <sequence>69</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>GD: 0.01106286133939635</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808696</millis>
+  <sequence>70</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>RF: ParetoFront/CloudSimPower.rf</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808700</millis>
+  <sequence>71</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>resetFile</method>
+  <thread>1</thread>
+  <message>File TestRuns/CloudComputeProblemStudy/data/MOEAD/CloudSimPower/GD exist.</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808701</millis>
+  <sequence>72</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>resetFile</method>
+  <thread>1</thread>
+  <message>File TestRuns/CloudComputeProblemStudy/data/MOEAD/CloudSimPower/GD is a file. Deleting file.</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808702</millis>
+  <sequence>73</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>resetFile</method>
+  <thread>1</thread>
+  <message>File succesfully deleted.</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808707</millis>
+  <sequence>74</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>GD: 0.01618226998951272</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808710</millis>
+  <sequence>75</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>GD: 0.013598883027231619</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808713</millis>
+  <sequence>76</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>GD: 0.011069561605033165</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808716</millis>
+  <sequence>77</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>GD: 0.012586654620301927</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808718</millis>
+  <sequence>78</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>GD: 0.016075617701798675</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808720</millis>
+  <sequence>79</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>GD: 0.01397331006141237</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808721</millis>
+  <sequence>80</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>RF: ParetoFront/CloudSimPower.rf</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808724</millis>
+  <sequence>81</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>resetFile</method>
+  <thread>1</thread>
+  <message>File TestRuns/CloudComputeProblemStudy/data/SMPSO/CloudSimPower/GD does NOT exist.</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808727</millis>
+  <sequence>82</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>GD: 0.0025711281148816604</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808730</millis>
+  <sequence>83</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>GD: 0.0026045031751767587</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808732</millis>
+  <sequence>84</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>GD: 0.0028265300082489504</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808735</millis>
+  <sequence>85</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>GD: 0.004053969943789663</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808740</millis>
+  <sequence>86</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>GD: 0.0012380165558859972</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808746</millis>
+  <sequence>87</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>GD: 0.0026294591739358963</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808748</millis>
+  <sequence>88</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>Computing indicator: HV</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808749</millis>
+  <sequence>89</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>RF: ParetoFront/CloudSimPower.rf</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808783</millis>
+  <sequence>90</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>resetFile</method>
+  <thread>1</thread>
+  <message>File TestRuns/CloudComputeProblemStudy/data/NSGAII/CloudSimPower/HV exist.</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808784</millis>
+  <sequence>91</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>resetFile</method>
+  <thread>1</thread>
+  <message>File TestRuns/CloudComputeProblemStudy/data/NSGAII/CloudSimPower/HV is a file. Deleting file.</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808785</millis>
+  <sequence>92</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>resetFile</method>
+  <thread>1</thread>
+  <message>File succesfully deleted.</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808793</millis>
+  <sequence>93</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>HV: 0.13661613842050246</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808798</millis>
+  <sequence>94</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>HV: 0.11007653358271915</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808802</millis>
+  <sequence>95</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>HV: 0.11138157865832993</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808808</millis>
+  <sequence>96</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>HV: 0.08743953200907131</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808815</millis>
+  <sequence>97</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>HV: 0.11123089151126725</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808817</millis>
+  <sequence>98</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>HV: 0.11414660587827231</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808818</millis>
+  <sequence>99</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>RF: ParetoFront/CloudSimPower.rf</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808820</millis>
+  <sequence>100</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>resetFile</method>
+  <thread>1</thread>
+  <message>File TestRuns/CloudComputeProblemStudy/data/MOEAD/CloudSimPower/HV exist.</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808820</millis>
+  <sequence>101</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>resetFile</method>
+  <thread>1</thread>
+  <message>File TestRuns/CloudComputeProblemStudy/data/MOEAD/CloudSimPower/HV is a file. Deleting file.</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808820</millis>
+  <sequence>102</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>resetFile</method>
+  <thread>1</thread>
+  <message>File succesfully deleted.</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808821</millis>
+  <sequence>103</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>HV: 0.10520372802897372</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808824</millis>
+  <sequence>104</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>HV: 0.11028814878754412</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808827</millis>
+  <sequence>105</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>HV: 0.11625253364273926</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808829</millis>
+  <sequence>106</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>HV: 0.12035632407710976</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808832</millis>
+  <sequence>107</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>HV: 0.10577200168616012</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808835</millis>
+  <sequence>108</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>HV: 0.09959810790485484</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808835</millis>
+  <sequence>109</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>RF: ParetoFront/CloudSimPower.rf</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808838</millis>
+  <sequence>110</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>resetFile</method>
+  <thread>1</thread>
+  <message>File TestRuns/CloudComputeProblemStudy/data/SMPSO/CloudSimPower/HV does NOT exist.</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808840</millis>
+  <sequence>111</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>HV: 0.14576231881432067</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808843</millis>
+  <sequence>112</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>HV: 0.14549865397519038</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808845</millis>
+  <sequence>113</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>HV: 0.1505359017873084</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808849</millis>
+  <sequence>114</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>HV: 0.14553392426813785</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808851</millis>
+  <sequence>115</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>HV: 0.1471889478724407</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808853</millis>
+  <sequence>116</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>HV: 0.15045241104560245</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808855</millis>
+  <sequence>117</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>Computing indicator: IGD</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808855</millis>
+  <sequence>118</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>RF: ParetoFront/CloudSimPower.rf</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808858</millis>
+  <sequence>119</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>resetFile</method>
+  <thread>1</thread>
+  <message>File TestRuns/CloudComputeProblemStudy/data/NSGAII/CloudSimPower/IGD exist.</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808858</millis>
+  <sequence>120</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>resetFile</method>
+  <thread>1</thread>
+  <message>File TestRuns/CloudComputeProblemStudy/data/NSGAII/CloudSimPower/IGD is a file. Deleting file.</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808858</millis>
+  <sequence>121</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>resetFile</method>
+  <thread>1</thread>
+  <message>File succesfully deleted.</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808860</millis>
+  <sequence>122</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>IGD: 0.0023608050873585446</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808863</millis>
+  <sequence>123</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>IGD: 0.002269929564075662</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808864</millis>
+  <sequence>124</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>IGD: 0.0030526662488118287</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808866</millis>
+  <sequence>125</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>IGD: 0.003683889098783985</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808868</millis>
+  <sequence>126</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>IGD: 0.002341390026287151</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808870</millis>
+  <sequence>127</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>IGD: 0.003115688554597944</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808870</millis>
+  <sequence>128</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>RF: ParetoFront/CloudSimPower.rf</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808872</millis>
+  <sequence>129</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>resetFile</method>
+  <thread>1</thread>
+  <message>File TestRuns/CloudComputeProblemStudy/data/MOEAD/CloudSimPower/IGD exist.</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808873</millis>
+  <sequence>130</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>resetFile</method>
+  <thread>1</thread>
+  <message>File TestRuns/CloudComputeProblemStudy/data/MOEAD/CloudSimPower/IGD is a file. Deleting file.</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808873</millis>
+  <sequence>131</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>resetFile</method>
+  <thread>1</thread>
+  <message>File succesfully deleted.</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808874</millis>
+  <sequence>132</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>IGD: 0.004378292686231476</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808876</millis>
+  <sequence>133</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>IGD: 0.0036578314613388173</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808878</millis>
+  <sequence>134</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>IGD: 0.004082860405730718</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808881</millis>
+  <sequence>135</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>IGD: 0.004452280859238858</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808883</millis>
+  <sequence>136</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>IGD: 0.003871764276841909</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808886</millis>
+  <sequence>137</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>IGD: 0.00401894581827251</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808886</millis>
+  <sequence>138</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>RF: ParetoFront/CloudSimPower.rf</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808889</millis>
+  <sequence>139</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>resetFile</method>
+  <thread>1</thread>
+  <message>File TestRuns/CloudComputeProblemStudy/data/SMPSO/CloudSimPower/IGD does NOT exist.</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808896</millis>
+  <sequence>140</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>IGD: 0.001348016200473717</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808901</millis>
+  <sequence>141</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>IGD: 0.001377127257029506</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808903</millis>
+  <sequence>142</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>IGD: 0.0012348153908509722</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808906</millis>
+  <sequence>143</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>IGD: 9.024951593756881E-4</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808908</millis>
+  <sequence>144</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>IGD: 0.0014457098974399794</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808910</millis>
+  <sequence>145</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>IGD: 0.0013918263665010356</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808910</millis>
+  <sequence>146</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>Computing indicator: IGD+</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808911</millis>
+  <sequence>147</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>RF: ParetoFront/CloudSimPower.rf</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808913</millis>
+  <sequence>148</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>resetFile</method>
+  <thread>1</thread>
+  <message>File TestRuns/CloudComputeProblemStudy/data/NSGAII/CloudSimPower/IGD+ exist.</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808913</millis>
+  <sequence>149</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>resetFile</method>
+  <thread>1</thread>
+  <message>File TestRuns/CloudComputeProblemStudy/data/NSGAII/CloudSimPower/IGD+ is a file. Deleting file.</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808914</millis>
+  <sequence>150</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>resetFile</method>
+  <thread>1</thread>
+  <message>File succesfully deleted.</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808955</millis>
+  <sequence>151</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>IGD+: 0.010670433238451503</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808958</millis>
+  <sequence>152</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>IGD+: 0.019761819222912654</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808961</millis>
+  <sequence>153</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>IGD+: 0.021145815492068846</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808963</millis>
+  <sequence>154</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>IGD+: 0.03700179012750694</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808965</millis>
+  <sequence>155</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>IGD+: 0.01879126689613458</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808968</millis>
+  <sequence>156</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>IGD+: 0.019890850910878912</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808969</millis>
+  <sequence>157</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>RF: ParetoFront/CloudSimPower.rf</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808970</millis>
+  <sequence>158</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>resetFile</method>
+  <thread>1</thread>
+  <message>File TestRuns/CloudComputeProblemStudy/data/MOEAD/CloudSimPower/IGD+ exist.</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808971</millis>
+  <sequence>159</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>resetFile</method>
+  <thread>1</thread>
+  <message>File TestRuns/CloudComputeProblemStudy/data/MOEAD/CloudSimPower/IGD+ is a file. Deleting file.</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808971</millis>
+  <sequence>160</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>resetFile</method>
+  <thread>1</thread>
+  <message>File succesfully deleted.</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808975</millis>
+  <sequence>161</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>IGD+: 0.021819873075916856</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808978</millis>
+  <sequence>162</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>IGD+: 0.021335663433143002</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808983</millis>
+  <sequence>163</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>IGD+: 0.014617526793999839</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808986</millis>
+  <sequence>164</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>IGD+: 0.018716293491372066</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808990</millis>
+  <sequence>165</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>IGD+: 0.021739740855400345</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808995</millis>
+  <sequence>166</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>IGD+: 0.021836353397381963</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:48</date>
+  <millis>1480493808997</millis>
+  <sequence>167</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>RF: ParetoFront/CloudSimPower.rf</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:49</date>
+  <millis>1480493809000</millis>
+  <sequence>168</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>resetFile</method>
+  <thread>1</thread>
+  <message>File TestRuns/CloudComputeProblemStudy/data/SMPSO/CloudSimPower/IGD+ does NOT exist.</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:49</date>
+  <millis>1480493809002</millis>
+  <sequence>169</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>IGD+: 3.493286881476914E-4</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:49</date>
+  <millis>1480493809007</millis>
+  <sequence>170</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>IGD+: 5.993961618251956E-4</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:49</date>
+  <millis>1480493809011</millis>
+  <sequence>171</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>IGD+: 2.2199044887926889E-4</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:49</date>
+  <millis>1480493809013</millis>
+  <sequence>172</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>IGD+: 6.232250784980414E-4</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:49</date>
+  <millis>1480493809020</millis>
+  <sequence>173</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>IGD+: 2.91740364501911E-4</message>
+</record>
+<record>
+  <date>2016-11-30T03:16:49</date>
+  <millis>1480493809024</millis>
+  <sequence>174</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>IGD+: 2.658749036610679E-4</message>
+</record>
+</log>
